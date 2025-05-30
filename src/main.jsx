@@ -4,7 +4,7 @@ import './index.css'
 import App from './App.jsx'
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
+  <body className='text-lg text-slate-600'>
     <App />
-  </StrictMode>,
+  </body>
 )
